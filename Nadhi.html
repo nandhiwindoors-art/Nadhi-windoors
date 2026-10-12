@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadhi Windoors | Premium uPVC Windows & Doors</title>
+  <meta name="description" content="Nadhi Windoors, Hyderabad — quality uPVC windows and doors for residential and commercial projects.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; color: #172b43; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 7%; background: white; gap: 20px; flex-wrap: wrap;
+    }
+    .logo { font-size: 25px; font-weight: 800; color: #0759a8; }
+    .logo span { display: block; font-size: 10px; letter-spacing: 3px; color: #65778a; }
+    nav { display: flex; gap: 22px; flex-wrap: wrap; font-size: 14px; }
+    nav a:hover { color: #087bd3; }
+    .hero {
+      min-height: 550px; display: flex; align-items: center; padding: 75px 8%;
+      color: white;
+      background: linear-gradient(90deg, rgba(4,29,56,.94), rgba(4,39,70,.48)),
+      url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1800&q=85') center/cover;
+    }
+    .hero-content { max-width: 700px; }
+    .eyebrow { color: #7dd3fc; text-transform: uppercase; letter-spacing: 3px; font-size: 12px; font-weight: bold; }
+    h1 { font-size: clamp(38px, 6vw, 66px); line-height: 1.1; margin: 18px 0; }
+    .hero p { font-size: 18px; max-width: 570px; color: #e3edf7; }
+    .btn {
+      display: inline-block; margin-top: 27px; padding: 14px 24px;
+      border-radius: 4px; background: #087bd3; color: white; font-weight: bold;
+    }
+    .btn:hover { background: #0562a9; }
+    section { padding: 75px 8%; }
+    .section-head { max-width: 700px; margin-bottom: 35px; }
+    .section-head h2 { font-size: clamp(28px, 4vw, 40px); margin: 8px 0 12px; }
+    .section-head p { color: #65778a; }
+    .eyebrow-dark { color: #087bd3; font-size: 12px; letter-spacing: 2px; font-weight: bold; }
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; align-items: center; }
+    .about img { width: 100%; height: 370px; object-fit: cover; border-radius: 8px; }
+    .about h2 { font-size: 36px; line-height: 1.2; margin: 12px 0 20px; }
+    .about p { color: #65778a; margin-bottom: 14px; }
+    .features { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+    .features span { background: #eaf4fc; color: #0759a8; padding: 9px 13px; border-radius: 4px; font-size: 13px; }
+    .products { background: #f4f8fc; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 22px #152d4510; }
+    .card img { width: 100%; height: 225px; object-fit: cover; display: block; }
+    .card-body { padding: 23px; }
+    .card h3 { margin-bottom: 8px; font-size: 20px; }
+    .card p { color: #65778a; font-size: 14px; }
+    .projects { background: #092441; color: white; }
+    .projects .section-head p { color: #c3d2e1; }
+    .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .project { border: 1px solid #29435e; padding: 28px; border-radius: 7px; }
+    .project .number { color: #7dd3fc; font-size: 13px; letter-spacing: 2px; }
+    .project h3 { margin: 12px 0; font-size: 23px; }
+    .project p { color: #c3d2e1; font-size: 14px; }
+    .cta { text-align: center; background: #eaf4fc; }
+    .cta h2 { font-size: clamp(28px, 4vw, 40px); margin-bottom: 12px; }
+    .cta p { color: #65778a; }
+    footer { background: #06182b; color: white; padding: 38px 8%; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    footer p { color: #b8c8d9; font-size: 13px; }
+    @media (max-width: 760px) {
+      header { padding: 18px 5%; }
+      nav { gap: 12px; }
+      .hero { min-height: 480px; padding: 60px 6%; }
+      section { padding: 55px 6%; }
+      .about, .grid, .project-grid { grid-template-columns: 1fr; }
+      .about img { height: 280px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="#home">NADHI WINDOORS<span>WINDOWS · DOORS · QUALITY</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">Precision · Performance · Trust</div>
+        <h1>Better Windows.<br>Brighter Spaces.</h1>
+        <p>Quality uPVC windows and doors crafted for modern homes, commercial buildings, and large-scale projects in Hyderabad.</p>
+        <a class="btn" href="#contact">Discuss Your Project →</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80" alt="Modern commercial building interior">
+      <div>
+        <div class="eyebrow-dark">ABOUT NADHI WINDOORS</div>
+        <h2>Built on Quality.<br>Driven by Expertise.</h2>
+        <p>Nadhi Windoors is a Hyderabad-based uPVC windows and doors manufacturer focused on dependable workmanship, professional service, and quality solutions for construction projects.</p>
+        <p>Our skilled and well-trained team works to deliver precision, consistent quality, and solutions suited to each project's requirements.</p>
+        <div class="features">
+          <span>✓ Skilled Workforce</span>
+          <span>✓ Quality Focus</span>
+          <span>✓ Project Solutions</span>
+          <span>✓ Customer Support</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="section-head">
+        <div class="eyebrow-dark">WHAT WE OFFER</div>
+        <h2>Our Products</h2>
+        <p>Functional, modern window and door solutions for a variety of architectural spaces.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Modern interior with large windows">
+          <div class="card-body"><h3>uPVC Windows</h3><p>Contemporary window solutions designed to complement modern architecture.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Contemporary home with glass doors">
+          <div class="card-body"><h3>uPVC Doors</h3><p>Elegant door solutions that balance everyday function and modern style.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80" alt="Modern residential architecture">
+          <div class="card-body"><h3>Project Solutions</h3><p>Window and door solutions tailored to residential and commercial project needs.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-head">
+        <div class="eyebrow">OUR EXPERIENCE</div>
+        <h2>Projects & Partnerships</h2>
+        <p>We aim to support demanding project requirements through skilled workmanship and a professional approach.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project"><div class="number">PROJECT 01</div><h3>Tata Rubric</h3><p>Project reference provided by Nadhi Windoors.</p></article>
+        <article class="project"><div class="number">PROJECT 02</div><h3>AVL</h3><p>Project reference provided by Nadhi Windoors.</p></article>
+        <article class="project"><div class="number">PROJECT 03</div><h3>Vajram</h3><p>Project reference provided by Nadhi Windoors.</p></article>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="eyebrow-dark">LET'S BUILD SOMETHING GREAT</div>
+      <h2>Planning Your Next Project?</h2>
+      <p>Contact Nadhi Windoors to discuss your uPVC windows and doors requirements.</p>
+      <a class="btn" href="mailto:info@nadhiwindoors.com?subject=Project%20Enquiry">Send an Enquiry →</a>
+      <p style="margin-top:16px;font-size:13px">Please replace the sample email with your verified business email before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div><div class="logo" style="color:white">NADHI WINDOORS</div><p>Quality Windows & Doors · Hyderabad, Telangana</p></div>
+    <p>© <span id="year">2026</span> Nadhi Windoors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
